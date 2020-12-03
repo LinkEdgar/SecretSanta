@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO Add textview for title -->
+
+    <!-- TODO add text for subtitle -->
+
+    <!-- TODO add input field for amount of users -->
+
+    <!-- TODO add button for next -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

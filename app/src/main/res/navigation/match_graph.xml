@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/match_graph"
+    app:startDestination="@id/beginFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_begin"
+        android:id="@+id/beginFragment"
+        android:name="com.example.secretsanta.views.BeginFragment"
+        android:label="BeginFragment" >
+        <action
+            android:id="@+id/action_beginFragment_to_userInputFragment"
+            app:destination="@id/userInputFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_user_input"
+        android:id="@+id/userInputFragment"
+        android:name="com.example.secretsanta.views.UserInputFragment"
+        android:label="UserInputFragment" />
+</navigation>
